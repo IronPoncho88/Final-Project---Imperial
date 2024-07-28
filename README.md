@@ -5,8 +5,8 @@
 
 ### Data processing, clean and additional computations to generate final input file
 - Data_Preparation_v2_25Jul
-- ** Generates an Output in folder 'Output_files'. That output enters the main code
-- *** Folder already has a file ready to be used.
+   ** Generates an Output in folder 'Output_files'. That output enters the main code
+   *** Folder already has a file ready to be used.
 
 ### Runs all ML models using the input file stored in the Output_files folder
 - V4_Signal_Detection2_27Jul
