@@ -13,7 +13,7 @@
   #### 0_Data_Preparation_code.ipynb
   - Data processing, clean and additional computations to generate final input file. ** Generates an Output in folder 'Output_files'. That output enters the main code *** Folder already has a file ready to be used.
   
-  ### 1_Signal_Detectioon_Models.ipynb
+  #### 1_Signal_Detectioon_Models.ipynb
   - Main code. Runs all ML models using the input file stored in the Output_files folder
   
   ### DATA
