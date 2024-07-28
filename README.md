@@ -1,7 +1,6 @@
 # Final-Project---Imperial
 
 ## CODE
-## ******
 
 ### Data processing, clean and additional computations to generate final input file
 - Data_Preparation_v2_25Jul
@@ -12,7 +11,6 @@
 - V4_Signal_Detection2_27Jul
 
 ## DATA
-## ******
 
 ### Pre-processed raw data
 - DatosIPC.csv
@@ -21,7 +19,6 @@
 - /Output_files/V2_processed_data_reduced_inputs_20240
 
 ## MODEL AND DATA INFO
-## ********************
 
 - Final_Report.md
 - Model Card.md
