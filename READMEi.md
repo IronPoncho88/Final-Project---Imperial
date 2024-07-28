@@ -25,18 +25,19 @@ Additionally, the Random Forest model was the next closest in performance, showi
 ## HYPERPARAMETER OPTIMSATION
 Multiple combinations of hyperparameters were optimized for the simple neural network included:
 
-hidden_dim: the number of neurons in the hidden layer (values tested: [5, 10, 30, 50])
-optimizer: optimization algorithm (values tested: ['Adam', 'SGD'])
-lr: learning rate (values tested: [.1, 0.01, 0.001, .0001])
-batch_size: size of the mini-batches for training (values tested: [10, 16, 32])
-epochs: number of training epochs (values tested: [10, 20, 30])
+- hidden_dim: the number of neurons in the hidden layer (values tested: [5, 10, 30, 50])
+- optimizer: optimization algorithm (values tested: ['Adam', 'SGD'])
+- lr: learning rate (values tested: [.1, 0.01, 0.001, .0001])
+- batch_size: size of the mini-batches for training (values tested: [10, 16, 32])
+- epochs: number of training epochs (values tested: [10, 20, 30])
+
 The optimal hyperparameters were determined through a manual grid search with time series cross-validation. The best parameters found were the following, but exploration wasn't exhaustive as I was doing comparisons VS many other models. Further refinement in hyperparameters is required.
 
-batch_size: 16
-epochs: 10
-hidden_dim: 30
-lr: 0.001
-optimizer: Adam
+- batch_size: 16
+- epochs: 10
+- hidden_dim: 30
+- lr: 0.001
+- optimizer: Adam
 
 ## RESULTS
 The simple neural network model achieved the following results:
